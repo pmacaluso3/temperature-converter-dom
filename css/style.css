@@ -19,6 +19,15 @@ input {
   margin-right: 8px;
 }
 
+.hot {
+  background-color: red;
+  /* background-image: url('http://fire.com'); */
+}
+.cold {
+  background-color: blue;
+  /* background-image: url('http://cold.com'); */
+}
+
 .display {
   width: 400px;
   height: 200px;
