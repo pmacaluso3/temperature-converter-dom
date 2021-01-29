@@ -1,3 +1,36 @@
+body {
+  background-color: rgb(205, 205, 205);
+  text-align: center;
+}
+
+input {
+  border: 1px solid darkgray;
+  border-radius: 5px;
+  font-size: 2em;
+  text-align: center;
+  padding: 5px;
+}
+
+.buttons-container {
+  margin: 10px
+}
+
+#submit {
+  margin-right: 8px;
+}
+
+.display {
+  width: 400px;
+  height: 200px;
+  border: 2px solid black;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3em;
+}
+
 h1 {
-  color: blue;
+  color: rgb(116, 116, 116);
+  font-family: helvetica;
 }
