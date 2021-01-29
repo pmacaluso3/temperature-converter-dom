@@ -48,7 +48,9 @@ function handleColorChange(temp, units) {
 }
 
 
-document.querySelector('#submit').addEventListener('click', function() {
+document.querySelector('form').addEventListener('submit', function(evt) {
+  evt.preventDefault()
+  
   const inputTemp = document.querySelector('input').value
   const units = document.querySelector('input[type=radio]:checked').value
 
@@ -68,4 +70,3 @@ document.querySelector('#clear').addEventListener('click', function() {
   document.querySelector('input').value = ''
   document.querySelector('.display').innerText = 'Result goes here'
 })
-
